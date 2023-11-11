@@ -31,6 +31,21 @@ nav>div {
 }
 
 
+.c1:hover {
+    animation-name: animacion-c1;
+    animation-duration: 1s;
+    cursor: pointer;
+ }
+ 
+ 
+ @keyframes animacion-c1 {
+    50% {
+        background-color: #F91392;
+        transform: scale(1.4);
+    } 
+ }
+ 
+
 .c2 {
     width: 60%;
     margin: 20px;
