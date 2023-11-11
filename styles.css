@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
     max-width: 1200px;
+    background-color: rgb(99, 203, 148);
 }
 
 
@@ -119,6 +120,11 @@ footer>div {
 
 @media screen and (max-width: 768px) {
 
+    * {
+        background-color: rgb(131, 164, 217);
+    }
+
+
     .content {
         border: 20px solid #FEE228;
         flex-direction: column;
@@ -135,6 +141,10 @@ footer>div {
 
 
 @media screen and (max-width: 600px) {
+
+    * {
+        background-color: rgb(222, 234, 112);
+    }
 
     nav {
         display: block;
