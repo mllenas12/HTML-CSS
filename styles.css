@@ -116,3 +116,20 @@ footer>div {
     background-color: #FDC765;
     height: 20px;
 }
+
+@media screen and (max-width: 768px) {
+
+    .content {
+        border: 20px solid #FEE228;
+        flex-direction: column;
+    }
+ 
+  
+    aside {
+        border-top: 20px solid #FEE228;
+        border-left: none;
+    }
+ 
+ 
+ }
+ 
