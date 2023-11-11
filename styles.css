@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
     max-width: 1200px;
-    }
+}
 
 
 header {
@@ -123,13 +123,56 @@ footer>div {
         border: 20px solid #FEE228;
         flex-direction: column;
     }
- 
-  
+
+
     aside {
         border-top: 20px solid #FEE228;
         border-left: none;
     }
- 
- 
- }
- 
+
+
+}
+
+
+@media screen and (max-width: 600px) {
+
+    nav {
+        display: block;
+    }
+
+    .c1,
+    .c2,
+    .c3 {
+        width: auto;
+        margin: 20px;
+    }
+
+
+    article {
+        background-color: #0C506F;
+        display: block;
+    }
+
+
+    article>div {
+        background-color: #61959C;
+        width: 100%;
+    }
+
+
+    article>div:last-child {
+        background-color: #A3DDCA;
+    }
+
+
+    aside {
+        background-color: rgb(250, 123, 85);
+    }
+
+
+    aside>div {
+        background-color: #FCB36B;
+    }
+
+
+}
